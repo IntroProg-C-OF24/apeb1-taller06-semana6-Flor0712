@@ -1,6 +1,7 @@
 package ejercicio2_taller6;
 import java.util.Scanner;
 public class Ejercicio2_Taller6 {
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         double lado1, lado2, lado3, resultado;
@@ -20,6 +21,9 @@ public class Ejercicio2_Taller6 {
                 } else {
                     if (lado1 != lado2 && lado2 != lado3) {
                         System.out.println("El triángulo es Escaleno");
+                    }
+                }
+            }
+        }
     }
-    
 }
